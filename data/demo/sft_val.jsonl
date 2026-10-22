@@ -1,0 +1,2 @@
+{"messages":[{"role":"user","content":"分词器如何处理一段文字？"},{"role":"assistant","content":"它把文字切分成词元，再将词元映射为对应的整数。"}]}
+{"messages":[{"role":"user","content":"如何判断模型是否过拟合？"},{"role":"assistant","content":"可以比较训练损失和验证损失，并在独立任务上检查模型表现。"}]}

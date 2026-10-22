@@ -1,0 +1,10 @@
+{"messages":[{"role":"user","content":"什么是语言模型？"},{"role":"assistant","content":"语言模型根据已有文本预测下一个词元，可以用于文本生成。"}]}
+{"messages":[{"role":"user","content":"请解释分词器。"},{"role":"assistant","content":"分词器把文本切分成词元，并转换为模型能够处理的整数序列。"}]}
+{"messages":[{"role":"user","content":"预训练有什么作用？"},{"role":"assistant","content":"预训练让模型通过大量文本学习语言规律，为后续任务打下基础。"}]}
+{"messages":[{"role":"user","content":"什么是继续预训练？"},{"role":"assistant","content":"继续预训练是在已有模型上使用新文本继续训练，使其适应新的领域。"}]}
+{"messages":[{"role":"user","content":"什么是监督微调？"},{"role":"assistant","content":"监督微调使用指令与回答样本，让模型学习如何回答问题。"}]}
+{"messages":[{"role":"user","content":"为什么需要验证集？"},{"role":"assistant","content":"验证集用于检查模型在未参与训练的数据上的表现。"}]}
+{"messages":[{"role":"user","content":"请说明低秩适配。"},{"role":"assistant","content":"低秩适配冻结原模型权重，只训练少量新增参数，以降低微调成本。"}]}
+{"messages":[{"role":"user","content":"如何检查训练流程？"},{"role":"assistant","content":"先用小模型和少量数据，检查损失、参数更新、保存和生成是否正常。"}]}
+{"messages":[{"role":"system","content":"请用简洁的中文回答。"},{"role":"user","content":"什么是梯度累积？"},{"role":"assistant","content":"梯度累积将多个小批次的梯度合并，再执行一次参数更新。"}]}
+{"messages":[{"role":"user","content":"生成时为什么使用缓存？"},{"role":"assistant","content":"缓存保存之前计算的键和值，避免重复计算，从而加快生成。"}]}
